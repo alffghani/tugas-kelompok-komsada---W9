@@ -16,7 +16,6 @@ Proyek ini bertujuan untuk meringkas keseluruhan materi dari mata kuliah **Kompu
 ## 📂 Struktur Repositori
 Berikut adalah susunan file dalam repositori ini:
 ```text
-├── data/               # Folder dataset latihan (.csv, .xlsx)
 ├── scripts/            # Skrip utama analisis R
 │   ├── statistik_deskriptif.R
 └── README.md           # Dokumentasi proyek
