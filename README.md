@@ -12,6 +12,9 @@ Proyek ini bertujuan untuk meringkas keseluruhan materi dari mata kuliah **Kompu
 7. Azizah Adilah / 5052241027
 8. Muhammad Naqib Bariq / 5052241013
 9. Kiagus Arif / 5052231038
+10. Dimas
+11. Calvin
+12. Alief
 
 ## 📂 Struktur Repositori
 Berikut adalah susunan file dalam repositori ini:
