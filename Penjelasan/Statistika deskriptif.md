@@ -20,6 +20,25 @@ $$Median = X_{\frac{n+1}{2}}$$
 
 $$Median = \frac{X_{\frac{n}{2}} + X_{\frac{n}{2}+1}}{2}$$
 
+a. Data Tunggal
+
+Tidak ada rumus khusus:
+
+Modus=nilai dengan frekuensi terbanyak
+
+Catatan:
+
+Bisa tidak ada modus (semua frekuensi sama)
+Bisa lebih dari satu modus (bimodal/multimodal)
+
+b. Data Berkelompok
+
+$$Mo = L + \left( \frac{d_1}{d_1 + d_2} \right) \times c$$
+- \(L\) = tepi bawah kelas modus  
+- \(d_1\) = selisih frekuensi kelas modus dengan kelas sebelumnya  
+- \(d_2\) = selisih frekuensi kelas modus dengan kelas sesudahnya  
+- \(c\) = panjang kelas
+
 ## 2. Ukuran Posisi (Kuartil)
 
 ### Kuartil 3 (Q₃)
