@@ -34,18 +34,22 @@ $$Mo = L + \left( \frac{d_1}{d_1 + d_2} \right) \times c$$
 Varians mengukur seberapa jauh setiap nilai dalam data menyimpang dari rata-rata.
 
 **Rumus Varians (sampel):**
+
 $$s^2 = \frac{\sum_{i=1}^{n} (x_i - \bar{x})^2}{n-1}$$
 
 **Rumus Varians (populasi):**
+
 $$\sigma^2 = \frac{\sum_{i=1}^{n} (x_i - \mu)^2}{n}$$
 
 ### b. Standar Deviasi (\(s\))
 Standar deviasi adalah akar kuadrat dari varians. Menggambarkan dispersasi data dalam satuan yang sama dengan data asli.
 
 **Rumus Standar Deviasi (sampel):**
+
 $$s = \sqrt{\frac{\sum_{i=1}^{n} (x_i - \bar{x})^2}{n-1}}$$
 
 **Rumus Standar Deviasi (populasi):**
+
 $$\sigma = \sqrt{\frac{\sum_{i=1}^{n} (x_i - \mu)^2}{n}}$$
 
 ## 3. Ukuran Hubungan Antar Variabel
@@ -54,15 +58,18 @@ $$\sigma = \sqrt{\frac{\sum_{i=1}^{n} (x_i - \mu)^2}{n}}$$
 Kovarians mengukur arah hubungan linier antara dua variabel. Nilai positif menunjukkan hubungan searah, negatif menunjukkan hubungan berlawanan arah.
 
 **Rumus Kovarians (sampel):**
+
 $$Cov(X,Y) = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{n-1}$$
 
 **Rumus Kovarians (populasi):**
+
 $$Cov(X,Y) = \frac{\sum_{i=1}^{n} (x_i - \mu_x)(y_i - \mu_y)}{n}$$
 
 ### b. Korelasi (\(r\))
 Korelasi (Pearson) mengukur kekuatan dan arah hubungan linier antara dua variabel. Nilainya berkisar antara -1 hingga +1.
 
 **Rumus Korelasi Pearson:**
+
 $$r = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i=1}^{n} (x_i - \bar{x})^2 \sum_{i=1}^{n} (y_i - \bar{y})^2}}$$
 
 Atau dapat ditulis dalam bentuk kovarians dan standar deviasi:
