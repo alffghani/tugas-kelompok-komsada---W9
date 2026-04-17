@@ -1,5 +1,3 @@
-Halo semuanyaaaaaaa
-
 ![Statistika](Statdesk.png)
 
 # Statistika Deskriptif: Rumus dan Penjelasan
