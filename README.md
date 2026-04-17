@@ -38,3 +38,5 @@ Library wajib untuk diinstall terlebih dahulu sebelum menjalankan script
 |File|Library|Fungsi|
 |----|-------|-----|
 |statistik_deskriptif.R|ggplot2|Visualisasi boxplot|
+
+https://github.com/AffrizaWildanFauzan/tugas-kelompok-komsada---W9/blob/master/statistika_deskriptif_scratch.R
