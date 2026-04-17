@@ -90,8 +90,6 @@ Atau tanpa koreksi (moment kurtosis):
 
 $$Kurtosis = \frac{\sum (x_i - \bar{x})^4}{n \cdot s^4}$$
 
-> Koreksi: File Anda menulis `Kurtosis = Σ(xi - x̄)⁴ / n/` — penyebutnya kurang tepat. Rumus di atas adalah yang benar.
-
 ---
 
 ## Ringkasan Koreksi dari File Anda
