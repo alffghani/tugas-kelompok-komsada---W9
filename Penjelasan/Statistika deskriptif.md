@@ -10,9 +10,11 @@ Statistika deskriptif adalah metode yang digunakan untuk menganalisis dan mendes
 Median adalah nilai yang membagi data terurut menjadi dua bagian yang sama besar.
 
 **Rumus untuk data tunggal:**
-- **Jika n ganjil:**  
+- **Jika n ganjil:**
+    
   $$Me = X_{\frac{n+1}{2}}$$
-- **Jika n genap:**  
+- **Jika n genap:**
+   
   $$Me = \frac{X_{\frac{n}{2}} + X_{\frac{n}{2} + 1}}{2}$$
 
 ### b. Modus (Nilai yang Paling Sering Muncul)
