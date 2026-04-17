@@ -13,7 +13,7 @@ Proyek ini bertujuan untuk meringkas keseluruhan materi dari mata kuliah **Kompu
 8. Muhammad Naqib Bariq / 5052241013
 9. Kiagus Arif / 5052231038
 10. Dimas
-11. Calvin
+11. Constantine Calvin Gosal Jo/ 5052241010
 12. Alief
 13. Keira
 
