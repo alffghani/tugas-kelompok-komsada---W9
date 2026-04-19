@@ -1,11 +1,5 @@
 # Cleaning & Pre-processing Dataset Walmart
 
-**Mata Kuliah:** Komputasi Sains Data  
-
-**Kelompok 3**
-
-
-
 ---
 
 
