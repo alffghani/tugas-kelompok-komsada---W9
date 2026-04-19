@@ -44,8 +44,12 @@ Proses mengubah format data agar sesuai dengan kebutuhan komputasi.
 
     * *Label Encoding*: Memberikan urutan angka (1, 2, 3...).
 
-* **Scaling:** Menyamakan rentang nilai antar variabel (misal: menyamakan skala jutaan ke skala 0-1) agar model linear tidak berat sebelah.
+* **Scaling (Standardization):** Menyamakan rentang nilai antar variabel (misal: menyamakan skala jutaan ke skala 0-1) agar model linear tidak berat sebelah.
+*  Mengubah skala data agar memiliki rata-rata ($\mu$) = 0 dan standar deviasi ($\sigma$) = 1. Rumus **Z-Score** yang digunakan adalah:
+    $$z = \frac{x - \mu}{\sigma}$$
 
+### C. Data Reduction
+Proses efisiensi untuk mempercepat waktu komputasi tanpa mengurangi informasi. Pada dataset ini, dilakukan **Deduplikasi Kolom** hasil *merge* yang redundan.
 ---
 
 ## 3. Implementasi Kode (R)
