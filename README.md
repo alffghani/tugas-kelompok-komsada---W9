@@ -21,6 +21,9 @@ Berikut adalah susunan file dalam repositori ini:
 ```text
 ├── scripts/            # Skrip utama analisis R
 │   ├── statistik_deskriptif.R
+├── Penjelasan/
+│   ├── statistik deskriptif.md
+│   ├── statistik deskriptif.pptx
 └── README.md           # Dokumentasi proyek
 ```
 ## Materi
