@@ -128,7 +128,34 @@ max_scratch <- function(x) {
   
   return(max_val)
 }
-
+# 8. Kovarians
+kovarian_scracth <- function(x,y){
+  xbar <- mean_scratch(x)
+  ybar <- mean_scratch(y)
+  sum <- 0
+  n <- length(x)
+  for(i in 1:n){
+    sum <- sum+((x[i]-xbar)*(y[i]-ybar))
+  }
+  hasil <- sum/n
+  return(hasil)
+}
+# 9. Korelasi
+korelasi_scratch <- function(x,y){
+  xbar <- mean_scratch(x)
+  ybar <- mean_scratch(y)
+  n <- length(x)
+  atas=0
+  bawah_1=0
+  bawah_2=0
+  for(i in 1:n){
+    atas <- atas+((x[i]-xbar)*(y[i]-ybar))
+    bawah_1 <- bawah_1+(x[i]-xbar)^2
+    bawah_2 <- bawah_2+(y[i]-ybar)^2
+  }
+  hasil <- atas/(sqrt(bawah_1)*sqrt(bawah_2))
+  return(hasil)
+}
 # CONTOH PEMAKAIAN
 
 x <- data$Weekly_Sales
@@ -141,6 +168,8 @@ quart_x<-quartile_scratch(x)
 mode_x<-mode_scratch(x)
 min_x<-min_scratch(x)
 max_x<-max_scratch(x)
+kovarians_xy<-kovarian_scratch(x,y)
+korelasi_xy<-korelasi_scratch(x,y)
 
 hasil_df<-data.frame(
   mean<-mean_x,
@@ -150,6 +179,8 @@ hasil_df<-data.frame(
   quart<-quart_x,
   mode<-mode_x,
   min<-min_x,
-  max<-max_x
+  max<-max_x,
+  kovarians<-kovarians_xy,
+  korelasi<-korelasi_xy
 )
 print(hasil_df)
