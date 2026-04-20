@@ -1,4 +1,4 @@
-![Statistika](Statdesk.png)
+![Statistika](StatDesk.png)
 
 # Rumus Statistika Deskriptif (Lengkap & Terkoreksi)
 
